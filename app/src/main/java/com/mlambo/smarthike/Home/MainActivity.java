@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 import com.mlambo.smarthike.Authentication.Profile;
 import com.mlambo.smarthike.R;
+import com.mlambo.smarthike.Walkthrough.Walkthrough;
+import com.mlambo.smarthike.Walkthrough.Welcome;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        startActivity(new Intent(this, Profile.class));
+        startActivity(new Intent(this, Welcome.class));
     }
 }

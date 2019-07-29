@@ -7,4 +7,10 @@
     <string name="thener_studio">Thener Studio</string>
     <string name="designed_by">Designed By</string>
     <string name="proceed">Proceed</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="enter_code_number">Enter code number</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="on_step_more">One more step..</string>
+    <string name="driver">Driver</string>
+    <string name="passenger">Passenger</string>
 </resources>

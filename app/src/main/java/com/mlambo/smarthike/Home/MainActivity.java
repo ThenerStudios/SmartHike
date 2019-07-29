@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.mlambo.smarthike.Authentication.PhoneAuth;
 import com.mlambo.smarthike.Authentication.Profile;
 import com.mlambo.smarthike.R;
 import com.mlambo.smarthike.Walkthrough.Walkthrough;

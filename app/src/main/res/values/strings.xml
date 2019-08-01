@@ -13,4 +13,18 @@
     <string name="on_step_more">One more step..</string>
     <string name="driver">Driver</string>
     <string name="passenger">Passenger</string>
+    <string name="driver_sign_up">DRIVER SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="id_number">ID Number</string>
+    <string name="car_number_plate">Car Number Plate</string>
+    <string name="scan_number_plate">Scan Number plate</string>
+    <string name="scan_id">Scan ID</string>
+    <string name="passenger_sign_up">Passenger Sign Up</string>
+    <string name="or">OR</string>
+    <string name="title_activity_drive">DriveActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_passenger">PassengerActivity</string>
 </resources>

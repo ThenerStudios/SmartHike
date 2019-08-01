@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mlambo.smarthike">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,9 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Walkthrough.Welcome"/>
-
-
+        <activity
+            android:name=".Home.PassengerActivity"
+            android:label="@string/title_activity_passenger"></activity>
+        <activity
+            android:name=".Home.DriveActivity"
+            android:label="@string/title_activity_drive" />
+        <activity android:name=".Authentication.PasangerSignUp" />
+        <activity android:name=".Authentication.DriversSignUp" />
+        <activity android:name=".Walkthrough.Welcome" />
         <activity android:name=".Walkthrough.Walkthrough" />
         <activity android:name=".Authentication.Profile" />
         <activity android:name=".Authentication.PhoneAuth" />

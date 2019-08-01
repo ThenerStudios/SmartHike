@@ -1,5 +1,6 @@
 package com.mlambo.smarthike.Authentication;
 
+import android.support.design.widget.BottomSheetBehavior;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -158,6 +159,8 @@ public class PhoneAuth extends AppCompatActivity {
     {
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog();
         bottomSheetDialog.show(getSupportFragmentManager(), "Bottom Sheet");
+        BottomSheetBehavior bottomSheetBehavior = new BottomSheetBehavior();
+        bottomSheetBehavior.setHideable(false);
     }
 
 

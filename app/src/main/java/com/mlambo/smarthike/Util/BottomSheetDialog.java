@@ -29,7 +29,8 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(getActivity(), DriversSignUp.class));
+                Intent intent = new Intent(getActivity(), DriversSignUp.class);
+                startActivity(intent);
 
             }
         });
@@ -38,7 +39,9 @@ public class BottomSheetDialog extends BottomSheetDialogFragment {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(getActivity(), PasangerSignUp.class));
+                Intent intent = new Intent(getActivity(), PasangerSignUp.class);
+                startActivity(intent);
+
             }
         });
 

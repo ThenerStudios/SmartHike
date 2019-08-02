@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mlambo.smarthike">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,17 +16,33 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".Home.PassengerActivity"
-            android:label="@string/title_activity_passenger"></activity>
+            tools:ignore="InnerclassSeparator" />
         <activity
+
             android:name=".Home.DriveActivity"
-            android:label="@string/title_activity_drive" />
-        <activity android:name=".Authentication.PasangerSignUp" />
-        <activity android:name=".Authentication.DriversSignUp" />
-        <activity android:name=".Walkthrough.Welcome" />
-        <activity android:name=".Walkthrough.Walkthrough" />
-        <activity android:name=".Authentication.Profile" />
-        <activity android:name=".Authentication.PhoneAuth" />
-        <activity android:name=".Home.MainActivity">
+            tools:ignore="InnerclassSeparator" />
+
+
+        <activity android:name=".Authentication.PasangerSignUp"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Authentication.DriversSignUp"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Walkthrough.Welcome"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Walkthrough.Walkthrough"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Authentication.Profile"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Authentication.PhoneAuth"
+            tools:ignore="InnerclassSeparator" />
+
+        <activity android:name=".Home.MainActivity"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

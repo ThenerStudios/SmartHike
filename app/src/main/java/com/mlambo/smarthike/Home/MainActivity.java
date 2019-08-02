@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        startActivity(new Intent(this, DriveActivity.class));
+        startActivity(new Intent(this, Welcome.class));
     }
 }

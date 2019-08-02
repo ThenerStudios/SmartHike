@@ -27,4 +27,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_passenger">PassengerActivity</string>
+    <string name="car_model">Car Model</string>
+    <string name="upload_picture_of_your_car">Upload picture of your car</string>
 </resources>

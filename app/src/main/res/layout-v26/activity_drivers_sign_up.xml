@@ -18,6 +18,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/avatar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_picture_of_your_car"
+                android:textAlignment="center"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_below="@id/profile"
+                android:fontFamily="@font/lato_thin"/>
+
             <TextView
                 android:id="@+id/signup"
                 android:layout_width="match_parent"
@@ -36,7 +57,7 @@
                 android:id="@+id/Input_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/signup"
+                android:layout_below="@+id/profile"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="39dp"
                 android:layout_marginEnd="20dp"
@@ -92,11 +113,26 @@
                 android:padding="10dp"
                 android:autofillHints="" />
 
+            <EditText
+                android:id="@+id/Input_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Input_License"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="39dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/input_background"
+                android:ems="10"
+                android:hint="@string/car_model"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:autofillHints="" />
+
             <TextView
                 android:id="@+id/or"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/Input_License"
+                android:layout_below="@+id/Input_model"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
@@ -124,7 +160,8 @@
                     android:background="@color/buttons"
                     android:text="@string/scan_id"
                     android:textColor="@color/white"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    tools:ignore="ButtonStyle" />
 
                 <Button
                     android:id="@+id/passengerBtn"
@@ -134,7 +171,8 @@
                     android:background="@color/fui_buttonShadow"
                     android:text="@string/scan_number_plate"
                     android:textColor="@color/text"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    tools:ignore="ButtonStyle" />
 
             </LinearLayout>
 
